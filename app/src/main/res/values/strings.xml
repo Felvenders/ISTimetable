@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name" translatable="false">ISTimetable</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="понедельник">monday</string>
+    <string name="вторник">tuesday</string>
+    <string name="среда">wednesday</string>
+    <string name="четверг">thursday</string>
+    <string name="пятница">friday</string>
+    <string name="суббота">saturday</string>
+    <string name="веб_программирование">web programming</string>
+    <string name="информационные_сети">information networks</string>
+    <string name="анализ_решений">decision analysis</string>
+    <string name="мобилки">mobile application development technologies</string>
+    <string name="машинное_обучение">machine learning</string>
+    <string name="пис">information systems design</string>
+    <string name="нереляционные_бд">NoSQL</string>
+    <string name="смена_языка">You can change the language by clicking on the button below</string>
+    <string name="расписание">timetable</string>
+    <string name="настройки">settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string-array name="monday">
+
+    </string-array>
+
+    <string-array name="tuesday">
+        <item>@string/информационные_сети</item>
+        <item>@string/мобилки</item>
+        <item>@string/пис</item>
+        <item>@string/веб_программирование</item>
+
+        <item>@string/анализ_решений</item>
+    </string-array>
+
+    <string-array name="wednesday">
+        <item>@string/анализ_решений</item>
+        <item>@string/информационные_сети</item>
+    </string-array>
+
+    <string-array name="thursday">
+        <item>@string/веб_программирование</item>
+        <item>@string/информационные_сети</item>
+        <item>@string/мобилки</item>
+        <item>@string/машинное_обучение</item>
+    </string-array>
+
+    <string-array name="friday">
+        <item>@string/машинное_обучение</item>
+        <item>@string/веб_программирование</item>
+    </string-array>
+
+    <string-array name="saturday">
+        <item>@string/нереляционные_бд</item>
+        <item>@string/нереляционные_бд</item>
+    </string-array>
+
+
+</resources>
